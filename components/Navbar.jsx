@@ -12,7 +12,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed w-full h-20 z-[100]">
+    <div className="absolute w-full h-20 z-[100]">
         <div className="flex justify-between items-center w-full h-full px-8 2xl:px-16">
             {/* <Image src="../public/assets/navLogo.png" alt="/" /> */}
             <div className='font-montserrat font-bold text-[#83C5BE] text-xl'>
@@ -20,9 +20,6 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="hidden md:flex">
-                  <Link href="/">
-                    <li className="ml-10 text-md hover:border-b hover:font-medium">About</li>
-                  </Link>
                   <Link href="/">
                     <li className="ml-10 text-md hover:border-b hover:font-medium">Experience</li>
                   </Link>
@@ -59,9 +56,6 @@ const Navbar = () => {
             </div>
             <div className="py-4 flex flex-col">
               <ul className="">
-                <Link href="/">
-                  <li className="uppercase py-4 text-sm hover:font-medium">About</li>
-                </Link>
                 <Link href="/">
                   <li className="uppercase py-4 text-sm hover:font-medium">Experience</li>
                 </Link>

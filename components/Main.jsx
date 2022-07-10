@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import {FaLinkedinIn, FaGithub, FaEnvelope, FaLink} from 'react-icons/fa'
+import {FaLinkedinIn, FaGithub, FaEnvelope, FaChevronDown} from 'react-icons/fa'
 
 const Main = () => {
   return (
@@ -23,6 +23,7 @@ const Main = () => {
 
                 </div>
             </div>
+
             <div className="flex px-5">
                 <Image 
                     src="/../public/assets/profilePic.png"
@@ -31,6 +32,15 @@ const Main = () => {
                     height="300"
                 />
             </div>
+
+            {/* <div className='absolute flex flex-col bottom-8 items-center justify-center cursor-pointer hover:font-semibold'>
+                <div className='text-md'>
+                    <p>Experience</p>
+                </div>
+                <div>
+                    <FaChevronDown />
+                </div>
+            </div> */}
 
             {/* <div className="flex-col h-screen justify-center items-center p-6">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
